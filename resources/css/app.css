@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Sembunyikan elemen [x-cloak] sebelum Alpine.js selesai load,
+   supaya tidak ada "flash" konten yang seharusnya tersembunyi */
+[x-cloak] {
+    display: none !important;
+}
